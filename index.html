@@ -21,7 +21,7 @@
                         </a>
                         <ul class="site-nav current list">
                             <li class="nav-item">
-                                <a href="Студия" class="link-current link list">Студия</a></li>
+                                <a href="Студия" class="link-current current link list">Студия</a></li>
                             <li class="nav-item">
                                 <a href="./portfolio.html" class="link-current link list">Портфолио</a></li>
                             <li class="nav-item">
@@ -101,9 +101,15 @@
                     <div class="container">
                     <h2 class="gallery-title">Чем мы занимаемся</h2>
                     <ul class="gallery-list">
-                        <li class="gallery-item list"><img src="./ipg1/box1.jpg" alt="Работа с компьютером" width="370"></li>
-                        <li class="gallery-item list"><img src="./ipg1/box2.jpg" alt="Работа на телефоне и компьютере " width="370"></li>
-                        <li class="gallery-item list"><img src="./ipg1/box3.jpg" alt="Работа на планшете" width="370"></li> 
+                        <li class="gallery-item list"><img src="./ipg1/box1.jpg" alt="Работа с компьютером" width="370">
+                        <p class="work">Десктопные приложения</p>
+                        </li>
+                        <li class="gallery-item list"><img src="./ipg1/box2.jpg" alt="Работа на телефоне и компьютере " width="370">
+                            <p class="work">Мобильные приложения</p>
+                        </li>
+                        <li class="gallery-item list"><img src="./ipg1/box3.jpg" alt="Работа на планшете" width="370">
+                            <p class="work">Дизайнерские</p>
+                        </li> 
                     </ul>
                 </div>
                 </section>
@@ -364,8 +370,11 @@
             </footer>
             <div data-modal class="backdrop is-hidden">
                 <div class="modal">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio quidem eum ratione mollitia deleniti laboriosam voluptatibus sunt, obcaecati autem facere veniam, animi aliquam magni vel repudiandae numquam nisi incidunt sequi?</p>
-                    <button data-modal-close>Закрыть</button>
+                    <button class="close-button" type="button" data-modal-close>
+                        <svg widht="18" height="18" class="icon-close">
+                            <use href="./symbol-defs4.svg#icon-close"></use>
+                        </svg>
+                        </button>
                 </div>
             </div>
             <script src="./js/modal.js"></script>
